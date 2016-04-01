@@ -8,5 +8,11 @@ h1{
 }
 
 body {
-
+	background-color: #I83026;
+	background-image: url("../images/GradientBackground.jpg");
+	background-size: auto, cover;
+	background-position: top left, center 0;
+	background-attachment: fixed, fixed;
+	
+	
 }
