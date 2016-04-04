@@ -1,18 +1,62 @@
-h1{
+.headerSlogan{
 	text-align: center;
 	position: relative;
-	top: calc(30px);
-	font-family: "Exo", sans-serif;
+	top: calc(20px);
+	z-index: 2;
+}
+
+.headerSlogan div{
+	text-align: center;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
 	font-size: 40px;
-	font-weight: 300;
+	font-weight: 200;
+}
+
+.headerSlogan div span{
+	color: #5379fa !important;
+}
+
+.login{
+	position: absolute;
+	top: calc(30%);
+	left: calc(50% - 100px);
+	font-family: 'Arial', sans-serif;
+	font-size: 18px;
+}
+
+.login input[type=text]{
+	width: 200px;
+	height: 30px;
+	text-align: center;
+	font-family: 'Arial', sans-serif;
+	font-size: 18px;
+}
+
+.login input[type=password]{
+	width: 200px;
+	height: 30px;
+	text-align: center;	
+	font-family: 'Arial', sans-serif;
+	font-size: 18px;
+}
+
+.login input[type=submit]{
+	width: 210px;
+	height: 40px;
+	text-align: center;
+	font-family: 'Arial', sans-serif;
+	font-size: 18px;
+}
+
+.login input[type=text]:focus{
+	outline: none;
+	border: 3px solid rgba(255,255,255,1);
 }
 
 body {
-	background-color: #I83026;
-	background-image: url("../images/GradientBackground.jpg");
+	background-image: url("../images/bg.jpg");
 	background-size: auto, cover;
 	background-position: top left, center 0;
 	background-attachment: fixed, fixed;
-	
-	
 }
