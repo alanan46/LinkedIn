@@ -9,7 +9,7 @@ int main(){
 /*	printf("Content-Type: text/plain;charset=utf-8\n\n");
 	printf("\n");
   	printf("Hello world\n\n");*/
-    printf("Content-type: text/html\n\n");
+    printf("Content-type: text/html\r\n\n");
     printf("Hi from the CGI!\n");
 	return 0;
 }
