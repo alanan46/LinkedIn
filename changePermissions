@@ -5,6 +5,7 @@ chmod 711 LinkedIn
 cd LinkedIn
 chmod 711 front_end cgi-bin
 cd front_end
+chmod 644 index.html
 chmod 711 css images
 chmod 644 css/* images/*
 cd ..
